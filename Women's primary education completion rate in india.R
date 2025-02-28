@@ -8,7 +8,7 @@ library(ggthemes)
 
 
 
-Women_education <- read_csv("E:/Aadikartikey/P1/API_SE.PRM.CMPT.FE.ZS_DS2_en_csv_v2_3095.csv", skip = 3)
+Women_education <- read_csv("https://github.com/KartikeyAaditya/Women-s-Primary-Education-completion-throughout-the-years-in-India/blob/main/API_SE.PRM.CMPT.FE.ZS_DS2_en_csv_v2_3095.csv", skip = 3)
 head(Women_education)
 colnames(Women_education)
 str(Women_education)
